@@ -1,11 +1,11 @@
 function volume_sphere() {
     //Write your code here
-	const radiusInput = document.getElementById("radius")
-	const radius=parseFloat(radiusInput.value);
+	const radius = document.getElementById("radius").value;
 	
-     const volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
+    const volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
+	
 	const VolumeInput = document.getElementById("volume")
-	VolumeInput.value =volume.toFixed(2);
+	VolumeInput.value =volume.toFixed(4);
 }
   
  
